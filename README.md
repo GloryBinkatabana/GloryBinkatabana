@@ -6,6 +6,9 @@ I am Glory, I am am Begium Campus student working towards a data science degree,
 - 🌱 I’m currently learning the necessity and functionality of PowerBI.
 
 - 👯 I’m looking to collaborate on medical AI development and training in the near future.
+
+  ![image alt](https://github.com/GloryBinkatabana/GloryBinkatabana/blob/5fd3fdd06e99dbf23976dabc1998f011e1f05cdd/logobg.png)
+  ![image alt](https://github.com/GloryBinkatabana/GloryBinkatabana/blob/27beb72d7dfb07d62c79392bb63e590ea451a496/studysmartbg.png)
 <!--
 **GloryBinkatabana/GloryBinkatabana** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
