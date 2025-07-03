@@ -119,6 +119,25 @@
             transform: translateY(-5px);
             box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
         }
+        .link {
+            background: rgba(31, 41, 55, 0.5);
+            backdrop-filter: blur(20px);
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+        }
+        .link:hover {
+            background: rgba(31, 41, 55, 0.6);
+            box-shadow: 0 10px 30px rgba(0, 255, 255, 0.1);
+        }
+        .link p {
+            color: #D1D5DB;
+            font-size: 1.1em;
+            line-height: 1.7;
+        }
+
 
         .section-title {
             font-size: 1.8em;
