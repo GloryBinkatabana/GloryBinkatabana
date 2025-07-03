@@ -3,7 +3,7 @@ I am Glory, I am am Begium Campus student working towards a data science degree,
 
 - 🔭 I’m currently working on "StudySmart" an application for highschool idviduals catering for all examination boards, where the application helps studnets study and prepare for examination at their desired pase. I am also working on an ecomerece website with for my brand my beauty brand DoxaFro.
 
-- 🌱 I’m currently learning the necessity and functionality of PowerBI.
+- 🌱 I’m currently learning the necessity and functionality of PowerBI. <img src= "https://img.icons8.com/?size=100&id=Ny0t2MYrJ70p&format=png&color=000000"  width="25">
 
 - 👯 I’m looking to collaborate on medical AI development and training in the near future.
 <p align="center">
