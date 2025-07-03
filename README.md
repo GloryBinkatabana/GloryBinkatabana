@@ -1,5 +1,5 @@
 ## Hi there 👋
-I am Glory, I am am Begium Campus student working towards a data science degree, intrested in AI development and training as well as CRISP DM
+I am Glory, I am am Belgium Campus student working towards a data science degree, interested in AI development and training as well as CRISP DM.
 
 - 🔭 I’m currently working on "StudySmart" an application for highschool idviduals catering for all examination boards, where the application helps studnets study and prepare for examination at their desired pase. I am also working on an ecomerece website with for my brand my beauty brand DoxaFro.
 
