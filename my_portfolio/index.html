@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glory's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">    
+      <link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+<body>
+    <!-- NEW SPLASH SCREEN -->
+    <div id="splash-screen">
+        <div class="binary-rain-container"></div>
+        <div id="name-reveal">GLORY BINKATABANA</div>
+        <div id="access-granted"></div>
+    </div>
+
+    <!-- Portfolio Content -->
+    <div id="portfolio-content">
+        <!-- Neural Network Background Canvas -->
+        <canvas class="neural-network-canvas" id="neural-canvas"></canvas>
+        
+        <!-- Navigation -->
+        <nav>
+            <div class="nav-container">
+                <button class="nav-btn" data-section="home">HOME</button>
+                <button class="nav-btn" data-section="journey">MY JOURNEY</button>
+                <button class="nav-btn" data-section="projects">PROJECTS</button>
+                <button class="nav-btn" data-section="toolkit">MY TOOLKIT</button>
+                <button class="nav-btn" data-section="contact">CONTACT</button>
+                <button class="nav-btn" data-section="blog" onclick="window.open('https://glorybinkatabana.github.io/GloryBinkatabana/my_resume/', '_blank')">RESUME</button>
+                
+            </div>
+        </nav>
+        
+        <!-- Sections -->
+        <section id="home">
+            <!-- Title above the animation -->
+            <div class="home-title">
+                <h1>Glory Binkatabana</h1>
+                <p>Aspiring Business Intelligence Developer</p>
+            </div>
+            
+            <!-- ETL Animation -->
+            <div class="animation-stage">
+                <!-- ETL Icons -->
+                <div class="etl-icon extract-icon" id="extractIcon">
+                    <i class="icon-symbol fas fa-university"></i>
+                    <div class="icon-label">Extract</div>
+                </div>
+
+                <div class="etl-icon transform-icon" id="transformIcon">
+                    <i class="icon-symbol fas fa-cogs"></i>
+                    <div class="icon-label">Transform</div>
+                </div>
+
+                <div class="etl-icon load-icon" id="loadIcon">
+                    <i class="icon-symbol fas fa-chart-bar"></i>
+                    <div class="icon-label">Load</div>
+                </div>
+
+                <!-- Stairs -->
+                <div class="stairs stairs-1">
+                    <div class="stair-step"></div>
+                    <div class="stair-step"></div>
+                    <div class="stair-step"></div>
+                    <div class="stair-step"></div>
+                    <div class="stair-step"></div>
+                </div>
+
+                <div class="stairs stairs-2">
+                    <div class="stair-step"></div>
+                    <div class="stair-step"></div>
+                    <div class="stair-step"></div>
+                    <div class="stair-step"></div>
+                    <div class="stair-step"></div>
+                </div>
+
+                <div class="stairs stairs-3">
+                    <!-- Horizontal steps for stairs-3 -->
+                    <div class="stair-step"></div>
+                    <div class="stair-step"></div>
+                    <div class="stair-step"></div>
+                    <div class="stair-step"></div>
+                    <div class="stair-step"></div>
+                    <div class="stair-step"></div>
+                    <div class="stair-step"></div>
+                    <div class="stair-step"></div>
+                    <div class="stair-step"></div>
+                    <div class="stair-step"></div>
+                    <div class="stair-step"></div>
+                    <div class="stair-step"></div>
+                </div>
+
+                <!-- Character -->
+                <div class="character" id="character">
+                    <div class="character-body">
+                        <div class="character-head"></div>
+                        <div class="character-torso"></div>
+                        <div class="character-arms character-arm-left"></div>
+                        <div class="character-arms character-arm-right"></div>
+                        <div class="character-legs character-leg-left"></div>
+                        <div class="character-legs character-leg-right"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="journey">
+            <div class="section-content">
+                <div class="card">
+                    <h2>My Journey</h2>
+                    <div class="journey-text">
+                        <p>My fascination with data began during my first programming course, where I discovered the power of transforming raw information into meaningful insights. What started as curiosity about how systems process information evolved into a passion for uncovering patterns and stories hidden within data.</p><br>
+                        <p>Through my role as Student Representative Council member, I learned the importance of stakeholder communication and collaborative problem-solving. Leading international project initiatives taught me how to manage complex requirements, coordinate diverse teams, and translate technical concepts for non-technical audiences – skills that are essential in Business Intelligence roles.</p><br>
+                        <p>Today, I'm excited about the future of data-driven decision making. I'm particularly drawn to challenges involving data warehousing, ETL processes, and creating intuitive dashboards that empower organizations to make informed decisions. My goal is to bridge the gap between complex data systems and actionable business insights.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="projects">
+            <div class="section-content">
+                <h2>Projects</h2>
+                <div class="projects-grid" id="projects-grid"></div>
+            </div>
+        </section>
+        
+        <section id="toolkit">
+            <div class="section-content">
+                <h2>My Toolkit</h2>
+                <div class="toolkit-grid" id="toolkit-grid"></div>
+            </div>
+        </section>
+        
+        <section id="contact">
+            <div class="section-content">
+                <div class="contact-card">
+                    <h2>Open to Opportunities</h2>
+                    <p>I'm actively seeking internship and graduate roles in Business Intelligence and Data Analytics. Let's connect and explore how I can contribute to your team's data-driven success.</p>
+                    
+                    <div class="contact-grid">
+                        <div class="contact-info">
+                            <h3>Get in Touch</h3>
+                            <div class="contact-details">
+                                <a href="mailto:glory.binkatabana@email.com" class="contact-link">
+                                    <span>📧</span>
+                                    <span>glorybinkatabana@email.com</span>
+                                </a>
+                                <a href="https://www.linkedin.com/in/glory-binkatabana-44a07a1b6/" target="_blank" class="contact-link">
+                                    <i class="fab fa-linkedin"></i>
+                                    <span>LinkedIn Profile</span>
+                                </a>
+                                <a href="https://github.com/GloryBinkatabana" target="_blank" class="contact-link">
+                                    <i class="fab fa-github"></i>
+                                    <span>GitHub Profile</span>
+                                </a>
+
+                                
+                            </div>
+                        </div>
+                        
+                        <div class="contact-form-container">
+                            <h3>Send a Message</h3>
+                            <form id="contact-form" class="contact-form">
+                                <input type="text" name="name" placeholder="Your Name" class="form-input" required>
+                                <input type="email" name="email" placeholder="Your Email" class="form-input" required>
+                                <textarea name="message" placeholder="Your Message" class="form-input" required></textarea>
+                                <button type="submit" class="submit-btn" >Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <!-- Project Modal Container -->
+    <div id="project-modal-container"></div>
+
+    <script src="scripts.js" defer></script>
+</body>
+</html>
