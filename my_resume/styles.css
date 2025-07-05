@@ -54,7 +54,7 @@
             animation: shimmer 4s infinite;
         }
 
-        @keyframes shimmer {
+       @keyframes shimmer {
             0% { left: -100%; }
             100% { left: 100%; }
         }
@@ -105,7 +105,7 @@
             color: #00c6c6;
         }
 
-        .section,link {
+        .section {
             background: rgba(31, 41, 55, 0.5);
             backdrop-filter: blur(20px);
             border-radius: 15px;
@@ -113,11 +113,6 @@
             margin-bottom: 20px;
             border: 1px solid rgba(255, 255, 255, 0.1);
             transition: all 0.3s ease;
-        }
-
-        .section:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
         }
         .link {
             background: rgba(31, 41, 55, 0.5);
@@ -138,14 +133,14 @@
             line-height: 1.7;
         }
         .link-title{
-              font-size: 1.8em;
+            font-size: 1.8em;
             font-weight: 700;
             color: white;
             margin-bottom: 20px;
             position: relative;
             display: inline-block;
         }
-.link-title::after {
+        .link-title::after {
             content: '';
             position: absolute;
             bottom: -5px;
@@ -156,6 +151,10 @@
             border-radius: 2px;
         }
 
+        .section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+        }
 
         .section-title {
             font-size: 1.8em;
@@ -374,9 +373,15 @@
             75% { transform: translateX(-50%) rotate(calc(var(--pointer-rotation, -90deg) - 3deg)); }
         }
 
+        /* --- Responsiveness Media Queries --- */
         @media (max-width: 768px) {
-            .name { font-size: 2.5em; }
-            .contact-info { flex-direction: column; gap: 15px; }
+            .name {
+                font-size: 2.2em; /* Reduced font size for mobile */
+            }
+            .contact-info {
+                flex-direction: column;
+                gap: 15px;
+            }
             .gauge-container {
                 width: 120px;
                 height: 120px;
@@ -396,5 +401,31 @@
             }
             .skill-name {
                 font-size: 0.8em;
+            }
+            .project-grid {
+                /* Stacks project cards into a single column on mobile */
+                grid-template-columns: 1fr;
+            }
+            .header {
+                padding: 30px 20px;
+            }
+            .section, .link {
+                padding: 20px;
+            }
+            .section-title, .link-title {
+                font-size: 1.5em;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .name {
+                font-size: 1.8em; /* Further reduce for very small screens */
+                word-wrap: break-word; /* Ensure name wraps if needed */
+            }
+            .title {
+                font-size: 1.1em;
+            }
+            .container {
+                padding: 10px;
             }
         }
