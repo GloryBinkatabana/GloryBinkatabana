@@ -52,7 +52,7 @@ class CategoryButton extends StatelessWidget {
                     "Skills in creating engaging interactive experiences"
                 ],
                 technologies: ["React", "TypeScript", "Framer Motion", "wordpress"],
-                githubUrl: "https://github.com/glory/doxafro"
+                status: ["Project In progress"]
             },
             {
                 id: "MLG",
