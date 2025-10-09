@@ -1,7 +1,5 @@
 # 💫 About Me:
 ## Hi there 👋
-![](https://komarev.com/ghpvc/?username=GloryBinkataba)
-
 I am Glory. I am a Belgium Campus student working towards a data science degree, interested in AI development and training as well as CRISP-DM.
 
 - 🔭 I’m currently working on "StudySmart," an application for high school individuals catering to all examination boards, where the application helps students study and prepare for examinations at their desired pace. I am also working on an e-commerce website for my beauty brand, DoxaFro.
@@ -27,6 +25,9 @@ I am Glory. I am a Belgium Campus student working towards a data science degree,
 ![](https://github-readme-stats.vercel.app/api?username=GloryBinkatabana&theme=dark&hide_border=false&include_all_commits=true&count_private=false)<br/>
 ![](https://nirzak-streak-stats.vercel.app/?user=GloryBinkatabana&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=GloryBinkatabana&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
+
+![](https://komarev.com/ghpvc/?username=GloryBinkataba)
+
 
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
