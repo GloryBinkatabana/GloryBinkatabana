@@ -3,190 +3,256 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Glory Binkatabana - Data Scientist Portfolio</title>
+    <title>Glory Binkatabana - Professional Resume</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
 </head>
-<body>
-    <canvas class="neural-network"></canvas>
+<body class="professional">
+    <canvas class="neural-network" id="neural"></canvas>
+    
+    <button class="style-toggle" onclick="toggleStyle()">
+        <span id="toggle-icon">🎨</span>
+        <span id="toggle-text">Creative Mode</span>
+    </button>
 
     <div class="container">
         <header class="header">
-            <div class="name">GLORY BINKATABANA</div>
-            <div class="title">Aspiring Data Analyst & Data Scientist</div>
+            <h1 class="name">GLORY BINKATABANA</h1>
+            <p class="title">VERSATILE COMPUTING PROFESSIONAL</p>
             <div class="contact-info">
-                <a href="mailto:glorybinkatabana@gmail.com" class="contact-item">
-                    <span>&#x1F4E7;</span> <span>glorybinkatabana@gmail.com</span>
-                </a>
-                <div class="contact-item">
-                    <span>&#x1F4DE;</span> <span>062-768-1342</span>
-                </div>
-                <div class="contact-item">
-                    <span>&#x1F4CD;</span> <span>Pretoria, Gauteng, SA</span>
-                </div>
+                <span class="contact-item">📍 Pretoria, Gauteng, South Africa</span>
+                <span class="contact-item">📞 062-768-1342</span>
+                <a href="mailto:glorybinkatabana@gmail.com" class="contact-item">✉️ glorybinkatabana@gmail.com</a>
+                <a href="https://www.linkedin.com/in/glory-binkatabana-44a07a1b6?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BGYMBww%2BDSSySeiIFn%2BdGsg%3D%3D" target="_blank" class="contact-item">💼 LinkedIn</a>
+                <a href="https://github.com/GloryBinkatabana" target="_blank" class="contact-item">💻 GitHub</a>
+                <a href="https://glorybinkatabana.github.io/GloryBinkatabana/my_portfolio/" target="_blank" class="contact-item">🌐 Portfolio</a>
             </div>
+            <p style="margin-top: 15px; color: #9CA3AF; font-size: 0.9em;">Open to Remote | Hybrid | Relocation</p>
         </header>
 
-        <div class="section">
-            <h2 class="section-title">Professional Summary</h2>
-            <p style="font-size: 1.1em; line-height: 1.7; color: #D1D5DB;">
-                A dedicated and logical Bachelor of Computing student with proven high performance in Database Development (90%) and Data Warehousing (80%). Adept at transforming complex data into actionable insights, with practical experience in full-stack application development and international project collaboration. Eager to apply analytical and programming skills to solve real-world data science challenges.
+        <section class="section">
+            <h2 class="section-title">CAREER OBJECTIVE</h2>
+            <p class="content-text">
+                Versatile computing professional seeking roles in Machine Learning Engineering, Software Development, 
+                Data Analysis, and Systems Analysis. Bachelor of Computing student with demonstrated excellence across 
+                database systems, software engineering, and machine learning. Proven ability to lead international technical 
+                projects and translate complex solutions into actionable business value through effective stakeholder 
+                communication and cross-functional collaboration.
             </p>
-        </div>
+        </section>
 
-        <div class="section">
-            <h2 class="section-title">Technical Skills</h2>
+        <section class="section">
+            <h2 class="section-title">TECHNICAL SKILLS</h2>
             <div class="skills-grid">
-                <div class="gauge-container" data-percent="90">
-                    <div class="gauge-wrapper">
-                        <svg class="gauge-svg" viewBox="0 0 200 100">
-                            <path class="gauge-bg" d="M 20 80 A 60 60 0 0 1 180 80" stroke-width="8" fill="none"></path>
-                            <path class="gauge-fill" d="M 20 80 A 60 60 0 0 1 180 80" stroke-width="8" fill="none"></path>
-                        </svg>
-                        <div class="gauge-percentage">0%</div>
-                        <div class="gauge-pointer-wrapper">
-                            <div class="gauge-pointer"></div>
-                        </div>
-                    </div>
-                    <div class="skill-name">SQL</div>
+                <div class="skill-category">
+                    <div class="skill-category-title">Programming Languages</div>
+                    <div class="skill-list">Python, C#, SQL, R, JavaScript, HTML, CSS, Kotlin</div>
                 </div>
-
-                <div class="gauge-container" data-percent="80">
-                    <div class="gauge-wrapper">
-                        <svg class="gauge-svg" viewBox="0 0 200 100">
-                            <path class="gauge-bg" d="M 20 80 A 60 60 0 0 1 180 80" stroke-width="8" fill="none"></path>
-                            <path class="gauge-fill" d="M 20 80 A 60 60 0 0 1 180 80" stroke-width="8" fill="none"></path>
-                        </svg>
-                        <div class="gauge-percentage">0%</div>
-                        <div class="gauge-pointer-wrapper">
-                            <div class="gauge-pointer"></div>
-                        </div>
-                    </div>
-                    <div class="skill-name">Python</div>
+                <div class="skill-category">
+                    <div class="skill-category-title">Data & Analytics</div>
+                    <div class="skill-list">Power BI, Tableau, Pandas, NumPy, Matplotlib, Seaborn, scikit-learn</div>
                 </div>
-
-                <div class="gauge-container" data-percent="70">
-                    <div class="gauge-wrapper">
-                        <svg class="gauge-svg" viewBox="0 0 200 100">
-                            <path class="gauge-bg" d="M 20 80 A 60 60 0 0 1 180 80" stroke-width="8" fill="none"></path>
-                            <path class="gauge-fill" d="M 20 80 A 60 60 0 0 1 180 80" stroke-width="8" fill="none"></path>
-                        </svg>
-                        <div class="gauge-percentage">0%</div>
-                        <div class="gauge-pointer-wrapper">
-                            <div class="gauge-pointer"></div>
-                        </div>
-                    </div>
-                    <div class="skill-name">C#</div>
+                <div class="skill-category">
+                    <div class="skill-category-title">Database Technologies</div>
+                    <div class="skill-list">SQL Server, PostgreSQL, Database Design, Data Warehousing, ETL</div>
                 </div>
-
-                <div class="gauge-container" data-percent="85">
-                    <div class="gauge-wrapper">
-                        <svg class="gauge-svg" viewBox="0 0 200 100">
-                            <path class="gauge-bg" d="M 20 80 A 60 60 0 0 1 180 80" stroke-width="8" fill="none"></path>
-                            <path class="gauge-fill" d="M 20 80 A 60 60 0 0 1 180 80" stroke-width="8" fill="none"></path>
-                        </svg>
-                        <div class="gauge-percentage">0%</div>
-                        <div class="gauge-pointer-wrapper">
-                            <div class="gauge-pointer"></div>
-                        </div>
-                    </div>
-                    <div class="skill-name">IoT & Node-RED</div>
+                <div class="skill-category">
+                    <div class="skill-category-title">Web & Mobile Development</div>
+                    <div class="skill-list">React Native, Node-RED, Full-Stack Development, Wear OS</div>
                 </div>
-
-                <div class="gauge-container" data-percent="65">
-                    <div class="gauge-wrapper">
-                        <svg class="gauge-svg" viewBox="0 0 200 100">
-                            <path class="gauge-bg" d="M 20 80 A 60 60 0 0 1 180 80" stroke-width="8" fill="none"></path>
-                            <path class="gauge-fill" d="M 20 80 A 60 60 0 0 1 180 80" stroke-width="8" fill="none"></path>
-                        </svg>
-                        <div class="gauge-percentage">0%</div>
-                        <div class="gauge-pointer-wrapper">
-                            <div class="gauge-pointer"></div>
-                        </div>
-                    </div>
-                    <div class="skill-name">Data Science Libs</div>
+                <div class="skill-category">
+                    <div class="skill-category-title">Cloud & DevOps</div>
+                    <div class="skill-list">Azure, AWS, Git, Version Control, CI/CD Fundamentals</div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-category-title">Specialised Technologies</div>
+                    <div class="skill-list">IoT Systems, Machine Learning, Neural Networks, API Integration</div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="section">
-            <h2 class="section-title">Key Projects</h2>
+        <section class="section">
+            <h2 class="section-title">EDUCATION</h2>
+            <div class="education-item">
+                <div class="education-header">
+                    <div>
+                        <div class="education-title">Bachelor of Computing</div>
+                        <div class="education-institution">Belgium Campus iTversity</div>
+                    </div>
+                    <div class="education-date">2023 - Present</div>
+                </div>
+                <div class="education-details">
+                    <p style="margin-bottom: 8px;">Weighted Average: 71% | 293 Credits Achieved</p>
+                    <p style="margin-bottom: 8px;"><span class="highlight">Academic Excellence:</span> Database Development, Data Warehousing, Mathematics, Statistics, Software Testing, Machine Learning</p>
+                    <p><span class="highlight">Core Competencies:</span> Database Administration, Software Development, Web Programming, Network Development, Linear Programming, Project Management, Research Methods, Information Systems</p>
+                </div>
+            </div>
+            <div class="education-item">
+                <div class="education-header">
+                    <div>
+                        <div class="education-title">Tertiary Preparatory Education</div>
+                        <div class="education-institution">Notre Dame St. Peter's School</div>
+                    </div>
+                    <div class="education-date">2018 - 2022</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">KEY PROJECTS</h2>
             <div class="project-grid">
                 <div class="project-card">
-                    <div class="project-title">International Collaboration: Hydroponics Education Kit</div>
+                    <div class="project-header">
+                        <div class="project-title">International Hydroponics Education Platform</div>
+                        <div class="project-org">Penn State & Belgium Campus</div>
+                        <div class="project-date">2024-2025</div>
+                    </div>
+                    <div class="project-tech">IoT, Node-RED, Data Management, API Integration</div>
                     <div class="project-description">
-                        Led the IT infrastructure for an IoT-enabled hydroponics kit for middle school education. Developed data management systems and web dashboards for remote monitoring.
-                    </div>
-                    <div>
-                        <span class="tech-tag">IoT</span><span class="tech-tag">Node-RED</span><span class="tech-tag">Data Management</span><span class="tech-tag">Web Dashboards</span>
-                    </div>
-                </div>
-                
-                <div class="project-card">
-                    <div class="project-title">StudySmart - EdTech Application</div>
-                     <div class="project-description">
-                        Architecting a full-stack application with robust database design for personalized study planning, resource management, and progress tracking for high school students.
-                    </div>
-                     <div>
-                        <span class="tech-tag">C#</span><span class="tech-tag">SQL</span><span class="tech-tag">Full-Stack Dev</span><span class="tech-tag">Database Design</span>
+                        <ul>
+                            <li>Led IT infrastructure development for IoT-enabled hydroponics educational kit deployed to middle schools in South Africa</li>
+                            <li>Architected data management systems and real-time web dashboards for remote monitoring of environmental sensors</li>
+                            <li>Implemented Node-RED data pipelines to integrate hardware sensor streams with cloud APIs</li>
+                            <li>Coordinated with international stakeholders to align technical solutions with educational objectives</li>
+                        </ul>
                     </div>
                 </div>
-                
-                <div class="project-card">
-                    <div class="project-title">DoxaFro - E-commerce Platform</div>
-                    <div class="project-description">
-                        Building a complete e-commerce website for a beauty brand, handling both front-end user experience and back-end database integration for all business operations.
-                    </div>
-                     <div>
-                        <span class="tech-tag">HTML/CSS</span><span class="tech-tag">C#</span><span class="tech-tag">SQL</span><span class="tech-tag">E-commerce</span>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <div class="section">
-            <h2 class="section-title">Experience & Education</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="item-title">Bachelor of Computing</div>
-                    <div class="item-subtitle">Belgium Campus iTversity</div>
-                    <div class="item-duration">2023 - Present</div>
-                    <p class="item-description">Weighted Average: 71.1%. Excelling in data-centric modules including Database Development (90%) and Data Warehousing (80%).</p>
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-title">SmartVital - Health Monitoring Ecosystem</div>
+                        <div class="project-org">Discovery GradHack 2025</div>
+                        <div class="project-date">2025</div>
+                    </div>
+                    <div class="project-tech">React Native, Python, PostgreSQL, Kotlin, Wear OS</div>
+                    <div class="project-description">
+                        <ul>
+                            <li>Developed full-stack health monitoring platform integrating Wear OS smartwatch application with web-based dashboard</li>
+                            <li>Built mobile application using React Native and Kotlin for biometric data collection and synchronisation</li>
+                            <li>Designed PostgreSQL database schema to manage user health profiles, family coordination, and emergency protocols</li>
+                            <li>Integrated Google Maps API for emergency location services and CallMeBot API for automated alert messaging</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="timeline-item">
-                    <div class="item-title">Student Representative Council - Events</div>
-                    <div class="item-subtitle">Belgium Campus iTversity</div>
-                    <div class="item-duration">2024</div>
-                    <p class="item-description">Conceptualized and executed student events. Initiated programs to improve student access to academic materials and resources.</p>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-title">StudySmart - Educational Technology Platform</div>
+                        <div class="project-date">2024</div>
+                    </div>
+                    <div class="project-tech">C#, SQL Server, Full-Stack Development</div>
+                    <div class="project-description">
+                        <ul>
+                            <li>Architected full-stack application providing personalised study planning for high school students</li>
+                            <li>Designed scalable SQL Server database schema accommodating multiple examination boards and subjects</li>
+                            <li>Implemented backend logic using C# to manage authentication and performance analytics</li>
+                        </ul>
+                    </div>
                 </div>
-                 <div class="timeline-item">
-                    <div class="item-title">Hack the Waste Hackathon</div>
-                    <div class="item-subtitle">International Online Event</div>
-                    <div class="item-duration">March 2025</div>
-                    <p class="item-description">Collaborated in a cross-disciplinary team during a 24-hour hackathon to develop innovative solutions for waste management challenges.</p>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-title">DoxaFro - E-commerce Platform</div>
+                        <div class="project-date">2024</div>
+                    </div>
+                    <div class="project-tech">HTML, CSS, C#, SQL Server</div>
+                    <div class="project-description">
+                        <ul>
+                            <li>Built complete e-commerce website for beauty brand, managing full data lifecycle</li>
+                            <li>Designed relational database architecture for inventory tracking and customer relationship management</li>
+                            <li>Created foundation for business intelligence reporting through structured data storage</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="timeline-item">
-                    <div class="item-title">Tertiary Preparatory Education</div>
-                    <div class="item-subtitle">Notre Dame St. Peter's School</div>
-                    <div class="item-duration">2018 - 2022</div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-title">Customer Churn Prediction Model</div>
+                        <div class="project-date">2025</div>
+                    </div>
+                    <div class="project-tech">Python, Machine Learning, Data Visualisation</div>
+                    <div class="project-description">
+                        <ul>
+                            <li>Developed predictive classification model to identify customer churn patterns</li>
+                            <li>Applied supervised learning algorithms including logistic regression and decision trees</li>
+                            <li>Created interactive visualisations using Plotly to communicate insights to stakeholders</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="link">
-            <h2 class="link-title">Links & Portfolio</h2>
-            <p>
-                Explore my projects and contributions on GitHub: <a href="https://github.com/GloryBinkatabana" target="_blank"><img src="https://img.icons8.com/?size=100&id=52539&format=png&color=000000" width="25"></a>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">LEADERSHIP & EXPERIENCE</h2>
+            
+            <div class="timeline-item">
+                <div class="timeline-title">Project Lead - International Technical Initiatives</div>
+                <div class="timeline-subtitle">Belgium Campus & Penn State University</div>
+                <div class="timeline-date">2024-2025</div>
+                <div class="timeline-description">
+                    <ul>
+                        <li>Led IT and data management components for cross-disciplinary international team</li>
+                        <li>Facilitated stakeholder alignment between university partners and educational institutions</li>
+                        <li>Translated complex technical architectures into accessible presentations for non-technical audiences</li>
+                        <li>Managed project timelines, resource allocation, and deliverable coordination</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-title">Events Department - Student Representative Council</div>
+                <div class="timeline-subtitle">Belgium Campus iTversity</div>
+                <div class="timeline-date">2024</div>
+                <div class="timeline-description">
+                    <ul>
+                        <li>Conceptualised and executed campus-wide events including gaming tournament engaging over 100 students</li>
+                        <li>Initiated programme to improve student access to academic resources and examination materials</li>
+                        <li>Collaborated with faculty and administration to address student needs</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-title">Hack the Waste Hackathon - International Competition</div>
+                <div class="timeline-date">March 2025</div>
+                <div class="timeline-description">
+                    <ul>
+                        <li>Collaborated within international team during 24-hour online competition</li>
+                        <li>Applied rapid prototyping and agile development methodologies under time constraints</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">PROFESSIONAL SUMMARY</h2>
+            <p class="content-text">
+                Results-driven computing professional with comprehensive technical foundation spanning software development, 
+                machine learning, database systems, and IoT infrastructure. Demonstrated ability to lead international 
+                technical projects, architect scalable solutions, and communicate complex concepts to diverse stakeholders.
             </p>
-            <p>
-                View my professional profile on LinkedIn: <a href="https://www.linkedin.com/in/glory-binkatabana-44a07a1b6?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BAZ5Ek5qqRxSVd2jzh7TBVw%3D%3D" target="_blank"><img src="https://img.icons8.com/?size=100&id=xuvGCOXi8Wyg&format=png&color=000000" width="25"></a>
+            <p class="content-text">
+                <span class="highlight">Core Strengths:</span> Full-stack development, database architecture and optimisation, 
+                machine learning model development, API integration, IoT system design, data pipeline engineering, project leadership, 
+                cross-functional collaboration, stakeholder communication, and technical documentation.
             </p>
-            <p>
-                View my professional Portfolio: <a href="https://glorybinkatabana.github.io/GloryBinkatabana/my_portfolio/" target="_blank"><img src="https://img.icons8.com/?size=100&id=23274&format=png&color=000000" width="25" alt="Portfolio Icon"></a>
-            </p>
-           
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">ADDITIONAL INFORMATION</h2>
+            <div class="content-text">
+                <p style="margin-bottom: 10px;"><span class="highlight">Certifications & Training:</span> Machine Learning (MLG381, MLG382), Database Administration (DBA381), Research Methods (RSH381)</p>
+                <p style="margin-bottom: 10px;"><span class="highlight">Languages:</span> English (Fluent)</p>
+                <p><span class="highlight">Interests:</span> Artificial Intelligence Ethics, Sustainable Technology Solutions, EdTech Innovation, Community Development through Engineering</p>
+            </div>
+        </section>
+
+        <div class="footer">
+            References available upon request
         </div>
     </div>
-<script src="funtionality.js" defer></script>
+
+    
 </body>
 </html>
